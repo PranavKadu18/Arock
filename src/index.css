@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: a4;
+  src: url(./assets/a4.ttf);
+}
+
+@font-face {
+  font-family: u7;
+  src: url(./assets/u7.ttf);
+}
+@font-face {
+  font-family: u4;
+  src: url(./assets/u4.ttf);
+}
+@font-face {
+  font-family: u8;
+  src: url(./assets/u8.ttf);
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
