@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <div className='app w-full h-screen overflow-hidden'>
-      {/* <Loading /> */}
+      <Loading />
       <Landingpage flag={flag} setflag={setflag} isclicked={handlecom} />
       <Menu flag={flag} setflag={setflag}/>
     </div>
